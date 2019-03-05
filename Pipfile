@@ -1,28 +1,21 @@
 [[source]]
-
-url = "https://pypi.python.org/simple"
-verify_ssl = true
 name = "pypi"
-
-
-[packages]
-
-numpy = "==1.14.5"
-scipy = "==1.1.0"
-sympy = "==1.2"
-matplotlib = "==2.2.2"
-ipython = "==6.4.0"
-pandas = "==0.23.2"
-seaborn = "==0.9.0"
-statsmodels = "==0.9.0"
-scikit-learn = "==0.19.2"
-ipykernel = "==4.8.2"
-
+url = "https://pypi.org/simple"
+verify_ssl = true
 
 [dev-packages]
 
-
+[packages]
+numpy = "*"
+scipy = "*"
+sympy = "*"
+matplotlib = "*"
+ipython = "*"
+pandas = "*"
+seaborn = "*"
+statsmodels = "*"
+scikit-learn = "*"
+ipykernel = "*"
 
 [requires]
-
-python_version = "3.6"
+python_version = "3.7"
